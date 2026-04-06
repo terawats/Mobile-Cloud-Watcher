@@ -35,5 +35,23 @@ Battery voltage voltage and percentage are monitoring by web access.
 Green : Charging 
 ![CloudWatcher_chargerPort](https://github.com/user-attachments/assets/c100f1e9-61e3-47fd-a40a-946203ff59bf)
 
-## Usage
-...
+## Web access and alarm setup 
+Put Mobile Cloud watcher unit on a location that sensor can see a clear sky then turn on power switch and connect to wifi SSID as below
+
+SSID     : "Cloud-Watcher-Panel"
+
+Password : "12345678"
+
+After wifi connected, open browser and access to http://192.168.0.1 for web monitor/setup.
+Below is a sample screen, you can see Sky temperature that reflect to amount of cloud and current battery level.
+Fully charged 2000mhr battery can be used for 2-3 night monitoring.
+After 3-5min monitoring, sky temperature chart will be show a history of sky temperare.
+Please setup sky teperature limit line for trigger an alarm level by 1-2 degree from history chart.
+![web_monitor](https://github.com/user-attachments/assets/71d54016-1bb4-41a3-bcac-a0b7b7389865)
+
+When cloudy happen Mobile Cloud watcher unit will send a RF433Mhz to trigger a door bell alarm to receiver.
+(Without cloud, you can test alarm trigger by put your hand over sensor for 2-3sec.)
+Cloudy will be happen befor actual rain come and safe for your expensive astrophotography equipment.
+![web_monitor_ticked](https://github.com/user-attachments/assets/d4af455b-b24c-4f38-b49d-0e8d922caa72)
+Let enjoy and clear sky.
+
